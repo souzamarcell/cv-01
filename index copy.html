@@ -57,8 +57,7 @@
   /* ===== HEADER ===== */
   .header {
     text-align: center;
-    /* padding: 30px 0 20px; */
-    padding: 10px 0 10px;
+    padding: 30px 0 20px;
     position: relative;
   }
 
@@ -91,7 +90,7 @@
     font-size: 0.85rem;
     color: var(--gold);
     letter-spacing: 4px;
-    /* margin-top: 8px; */
+    margin-top: 8px;
     opacity: 0.8;
   }
 
@@ -188,7 +187,7 @@
   }
 
   .calendar-panel::before {
-    /* content: '✦ Calendário Místico ✦'; */
+    content: '✦ Calendário Místico ✦';
     display: block;
     text-align: center;
     font-family: 'Cinzel', serif;
@@ -196,14 +195,14 @@
     letter-spacing: 3px;
     color: var(--gold);
     opacity: 0.6;
-    /* margin-bottom: 15px; */
+    margin-bottom: 15px;
   }
 
   .month-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-bottom: 15px; */
+    margin-bottom: 15px;
   }
 
   .month-name {
@@ -237,14 +236,14 @@
   .weekdays {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 3px;
-    margin-bottom: 7px;
+    gap: 4px;
+    margin-bottom: 8px;
   }
 
   .weekday {
     text-align: center;
     font-family: 'Cinzel', serif;
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     color: var(--gold-dark);
     letter-spacing: 1px;
     padding: 4px 0;
@@ -253,19 +252,18 @@
   .days-grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 3px;
+    gap: 4px;
   }
 
   .day-cell {
-    /* aspect-ratio: 1; */
-    height: 28px;
+    aspect-ratio: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 6px;
     cursor: pointer;
     font-family: 'Cinzel', serif;
-    font-size: 0.55rem;
+    font-size: 0.75rem;
     color: var(--text-cream);
     transition: all 0.2s;
     border: 1px solid transparent;
@@ -779,12 +777,12 @@
     }
 
     .flavor-quote {
-      font-size: 1.1rem;
+      font-size: 0.82rem;
       line-height: 1.55;
     }
 
     .card-verse {
-      font-size: 1rem;
+      font-size: 0.65rem;
     }
 
     .card-info {
@@ -954,7 +952,7 @@
       <div class="card-info" id="cardInfo" style="display:none;">
         <div class="card-info-title" id="infoTitle"></div>
         <div class="card-info-text" id="infoText"></div>
-        <!-- <div class="tap-hint">✦ &nbsp; CLIQUE EM OUTRO DIA &nbsp; ✦</div> -->
+        <div class="tap-hint">✦ &nbsp; CLIQUE EM OUTRO DIA &nbsp; ✦</div>
       </div>
     </div>
 
